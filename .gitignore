@@ -10,3 +10,4 @@ apps/backend/.env
 node_modules
 .next/cache
 package-lock.json
+.DS_Store
