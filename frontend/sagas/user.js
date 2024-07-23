@@ -256,6 +256,8 @@ function* watchLoadUser() {
 function* watchLoadMyInfo() {
   yield takeLatest(LOAD_MY_INFO_REQUEST, loadMyInfo);
 }
+
+//로그인요청
 function* watchLogIn() {
   yield takeLatest(LOG_IN_REQUEST, logIn);
 }
